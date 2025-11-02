@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+*.lock
+credentials/
+*.json
+*.key
+*.pem
+*.p12
+secret_*
+
+
+.streamlit/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/

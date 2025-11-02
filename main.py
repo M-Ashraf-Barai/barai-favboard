@@ -101,7 +101,7 @@ if not st.session_state.form_submitted:
         season = st.text_input("Favorite Season")
         movie = st.text_input("Favorite Movie Genre")
         sports = st.text_input("Favorite Sports")
-        sportman = st.text_input("Favorite Sportman")
+        sportsman = st.text_input("Favorite Sportman")
         place = st.text_input("Favorite Country/region to visit")
 
         submitted = st.form_submit_button("Submit")

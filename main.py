@@ -101,7 +101,7 @@ if not st.session_state.form_submitted:
         season = st.text_input("Favorite Season")
         movie = st.text_input("Favorite Movie Genre")
         sports = st.text_input("Favorite Sports")
-        sportsman = st.text_input("Favorite Sportman")
+        sportsman = st.text_input("Favorite Sportsman")
         place = st.text_input("Favorite Country/region to visit")
 
         submitted = st.form_submit_button("Submit")
@@ -111,7 +111,7 @@ if not st.session_state.form_submitted:
                 worksheet.append_row([
                     name or "None", dish or "None", fruit or "None", drink or "None", hobby or "None",
                     color or "None", flower or "None", people or "None", perfume or "None",
-                    time or "None", season or "None", movie or "None", sportsman or "None", sports or "None", place or "None"
+                    time or "None", season or "None", movie or "None", sports or "None", sportsman or "None", place or "None"
                 ])
                 st.session_state.form_submitted = True
                 st.rerun()
